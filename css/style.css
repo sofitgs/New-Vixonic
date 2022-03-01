@@ -180,6 +180,16 @@ align-items: center;
     align-items: center;
 }
 
+/*página soluciones digitales*/
+.portada__img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
 /*footer*/
 footer{
     background-color: #0071ce;
