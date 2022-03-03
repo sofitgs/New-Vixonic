@@ -1,0 +1,81 @@
+$fontprincipal: 'Poppins';
+$azul: #0071ce;
+$amarillo: #f7b644;
+$rosafuerte: #e63c49;
+$azulfuerte: #2E33AB;
+$gristexto: gray;
+
+/*Nav*/
+ul {
+    list-style: none;
+    font-size: 0;
+}
+
+li {
+    display: inline-block;
+    width: 25vh;
+    position: relative;
+    font-size: 14px;
+}
+
+ul  ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.navegador{
+position: sticky;
+background-color: $azul;
+top: 0;
+z-index: 2;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+.navegador__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: auto;
+   }
+
+   .navegador__links {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.navegador__item {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.navegador__link {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.navegador__link--active {
+font-weight: 900;
+text-decoration: overline;
+border-bottom: 1px solid $amarillo;
+color: white;
+}
+
+.navegador__submenu{
+background-color: $azul;
+}
+
+}

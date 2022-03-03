@@ -1,3 +1,5 @@
+@import "_navegador";
+@import "_footer";
 $fontprincipal: 'Poppins';
 $azul: #0071ce;
 $amarillo: #f7b644;
@@ -15,81 +17,6 @@ $gristexto: gray;
 body{
     font-family: Poppins;
     font-size: 15px;
-}
-
-/*Nav*/
-ul {
-    list-style: none;
-    font-size: 0;
-}
-
-li {
-    display: inline-block;
-    width: 25vh;
-    position: relative;
-    font-size: 14px;
-}
-
-ul  ul {
-    position: absolute;
-    display: none;
-}
-
-ul ul li {
-    display: block;
-}
-
-ul li:hover ul {
-    display: block;
-}
-
-.navegador{
-position: sticky;
-background-color: $azul;
-top: 0;
-z-index: 2;
-display: flex;
-align-items: center;
-justify-content: space-between;
-
-.navegador__logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    width: auto;
-   }
-
-   .navegador__links {
-    list-style: none;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-.navegador__item {
-    display: inline-block;
-    padding-top: 10px;
-}
-
-.navegador__link {
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: white;
-}
-
-.navegador__link--active {
-font-weight: 900;
-text-decoration: overline;
-border-bottom: 1px solid $amarillo;
-color: white;
-}
-
-.navegador__submenu{
-background-color: $azul;
-}
-
 }
 
 
@@ -198,71 +125,7 @@ align-items: center;
 
 
 
-/*footer*/
-footer{
-    background-color: $azul;
-    width: 100%;
-}
 
-.footer {
-    position: top;
-    bottom: 0;
-    height: 300px;
-    padding-top: 10px;
-    .footer__content {
-        list-style: none;
-        display: inline-block;
-        margin-top: 10px;
-        color: white;
-        margin-right: 40px;
-        }
-        
-        .footer__links {
-            display: list-item;
-        }
-        
-        .footer__item {
-            display: list-item;
-        }
-        
-        .footer__link {
-            text-decoration: none;
-            display: list-item;
-            margin-left: 5px;
-            margin-right: 5px;
-            margin-top: 5px;
-            color: white;
-        }
-        
-        .footer__write {
-            text-decoration: none;
-            display: block;
-            position: top;
-            margin-top: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
-        }
-        
-        .footer_sociallink {
-            text-decoration: none;
-            display: inline-flex;
-            margin-top: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
-        }
-        
-        .footer__empresa {
-            display: flex;
-            height: 50px;
-            justify-content: center;
-            align-content: center;
-            text-decoration: none;
-            background-color: $azul;
-            color: white;
-            padding-top: 25px;
-            
-        }
-}
 
 
 
