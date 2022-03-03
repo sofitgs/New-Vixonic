@@ -1,0 +1,71 @@
+$fontprincipal: 'Poppins';
+$azul: '#0071ce';
+$amarillo: '#f7b644';
+$rosafuerte: '#e63c49';
+$azulfuerte: '#2E33AB';
+$gristexto: 'gray';
+
+
+/*footer*/
+footer{
+    background-color: $azul;
+    width: 100%;
+    font-family: $fontprincipal;
+}
+
+.footer {
+    position: top;
+    bottom: 0;
+    height: 300px;
+    padding-top: 10px;
+    .footer__content {
+        list-style: none;
+        display: inline-block;
+        margin-top: 10px;
+        color: white;
+        margin-right: 40px;
+        }
+    .footer__links {
+        display: list-item;
+        }
+    .footer__item {
+        display: list-item;
+        }
+        
+    .footer__link {
+        text-decoration: none;
+        display: list-item;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        color: white;
+        }
+        
+    .footer__write {
+        text-decoration: none;
+        display: block;
+        position: top;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        }
+        
+    .footer_sociallink {
+        text-decoration: none;
+        display: inline-flex;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        }
+        
+    .footer__empresa {
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-content: center;
+        text-decoration: none;
+        background-color: $azul;
+        color: white;
+        padding-top: 25px;    
+        }        
+}

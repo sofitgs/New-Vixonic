@@ -1,0 +1,132 @@
+@import "_nav";
+@import "_footer";
+$fontprincipal: 'Poppins';
+$azul: '#0071ce';
+$amarillo: '#f7b644';
+$rosafuerte: '#e63c49';
+$azulfuerte: '#2E33AB';
+$gristexto: 'gray';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+body{
+    font-family: $fontprincipal;
+    font-size: 15px;
+}
+
+.boton__contactanos{
+background-color: $amarillo;
+border-radius: 20px;
+height: 50px;
+width: 120px;
+margin: auto;
+display: flex;
+justify-content: center;
+justify-items: center;
+align-items: center;
+}
+
+.boton__link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.espacio {
+    height: 35px;
+}
+
+.espacio--2{
+    height: 80px;
+}
+
+.primera__tarjeta {
+  padding-top: 15vh;
+}
+
+.subtitulo__seccion{
+    color: $rosafuerte;
+    font-weight: bold;
+}
+
+.parrafo__seccion {
+    color: gray;
+}
+
+.boton__vermas{
+    background-color: $rosafuerte;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;  
+}
+
+.subtitulo__seccion--2 {
+    color: $azul;
+    font-weight: bold;
+}
+
+.imagenes__soluciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton__vermas--centro{
+    background-color: $azul;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.subtitulo__seccion--3 {
+    color: $amarillo;
+    font-weight: bold;  
+}
+
+.img__logoclientes {
+    margin: auto;
+    display: inline-block;
+    width: 25vh;
+}
+
+.boton__vermas--centro--2 {
+    background-color: $amarillo;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+/*página soluciones digitales*/
+.portada__img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
