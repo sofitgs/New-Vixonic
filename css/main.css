@@ -1,61 +1,4 @@
 @charset "UTF-8";
-/*Nav*/
-ul {
-  list-style: none;
-  font-size: 0; }
-
-li {
-  display: inline-block;
-  width: 25vh;
-  position: relative;
-  font-size: 14px; }
-
-ul ul {
-  position: absolute;
-  display: none; }
-
-ul ul li {
-  display: block; }
-
-ul li:hover ul {
-  display: block; }
-
-.nav {
-  position: sticky;
-  background-color: "#0071ce";
-  top: 0;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: "Poppins"; }
-  .nav .nav__logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    width: auto; }
-  .nav .nav__links {
-    list-style: none;
-    display: inline-block;
-    margin-bottom: 20px; }
-  .nav .nav__item {
-    display: inline-block;
-    padding-top: 10px; }
-  .nav .nav__link {
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: white; }
-  .nav .nav__link--active {
-    font-weight: 900;
-    text-decoration: overline;
-    border-bottom: 1px solid "#f7b644";
-    color: white; }
-  .nav .nav__submenu {
-    background-color: "#0071ce"; }
-
 /*footer*/
 footer {
   background-color: "#0071ce";
@@ -116,6 +59,63 @@ footer {
 body {
   font-family: "Poppins";
   font-size: 15px; }
+
+/*Nav*/
+ul {
+  list-style: none;
+  font-size: 0; }
+
+li {
+  display: inline-block;
+  width: 25vh;
+  position: relative;
+  font-size: 14px; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+ul li:hover ul {
+  display: block; }
+
+.nav {
+  position: sticky;
+  background-color: "#0071ce";
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins"; }
+  .nav .nav__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: auto; }
+  .nav .nav__links {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 20px; }
+  .nav .nav__item {
+    display: inline-block;
+    padding-top: 10px; }
+  .nav .nav__link {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white; }
+  .nav .nav__link--active {
+    font-weight: 900;
+    text-decoration: overline;
+    border-bottom: 1px solid "#f7b644";
+    color: white; }
+  .nav .nav__submenu {
+    background-color: "#0071ce"; }
 
 .boton__contactanos {
   background-color: "#f7b644";
