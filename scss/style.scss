@@ -1,11 +1,9 @@
-@import "_navegador";
-@import "_footer";
-$fontprincipal: 'Poppins';
-$azul: #0071ce;
-$amarillo: #f7b644;
-$rosafuerte: #e63c49;
-$azulfuerte: #2E33AB;
-$gristexto: gray;
+@import "navegador";
+@import "footer";
+@import "generales";
+@import "social";
+@import "variables";
+
 
 *{
     margin: 0;
@@ -114,6 +112,7 @@ align-items: center;
     justify-items: center;
     align-items: center;
 }
+
 
 /*página soluciones digitales*/
 .portada__img {
