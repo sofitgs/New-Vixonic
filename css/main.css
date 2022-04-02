@@ -120,12 +120,6 @@ footer {
 :hover.btn--youtube {
   background-color: red; }
 
-.box {
-  height: 50px;
-  width: 500px;
-  background-color: #0071ce;
-  font-size: 30px; }
-
 .social {
   background-color: #2e33ab;
   width: 50px;
@@ -158,6 +152,18 @@ body {
   font-family: Poppins;
   font-size: 15px; }
 
+.imagen__seccion {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-top: 55px;
+  margin-left: 150px; }
+  .imagen__seccion:hover {
+    transform: scale(1.2); }
+
+.bold_rosa {
+  color: #e63c49; }
+
 .boton__contactanos {
   background-color: #f7b644;
   border-radius: 20px;
@@ -183,9 +189,25 @@ body {
 .primera__tarjeta {
   padding-top: 15vh; }
 
-.subtitulo__seccion {
+.subtitulo__seccion--animacion {
+  animation-name: animacion_subtitulos;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+  animation-delay: 0.5s;
   color: #e63c49;
   font-weight: bold; }
+
+@keyframes animacion_subtitulos {
+  0% { }
+  25% {
+    opacity: 75%; }
+  50% {
+    opacity: 50%; }
+  75% {
+    opacity: 25%; }
+  100% {
+    opacity: 0%; } }
 
 .parrafo__seccion {
   color: gray; }

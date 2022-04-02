@@ -20,15 +20,4 @@ $redes: (
    }
 }
 
-//mixins
 
-@mixin sizes ($width, $height, $color, $font) {
-    height: $height;
-    width: $width;
-    background-color: $color;
-    font-size: $font 
-}
-
-.box {
-    @include sizes (500px, 50px, #0071ce, 30px,);
-}
