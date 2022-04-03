@@ -17,12 +17,19 @@ body{
     font-size: 15px;
 }
 
+.portada__bienvenida{
+    height: 70vh;
+}
+
+.titulo__principal {
+    margin-top: 10vh;
+}
+
 .imagen__seccion {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: flex;
-    margin-top: 55px;
-    margin-left: 150px;
+    margin-bottom: 15vh;
 
     &:hover {
         transform: scale(1.2);
@@ -46,54 +53,35 @@ justify-items: center;
 align-items: center;
 }
 
+.logosclientes {
+    height: 25vh;
+    margin-bottom: 15vh;
+}
+
 .boton__link {
     text-decoration: none;
     color: white;
     font-size: 14px;
 }
 
-.espacio {
-    height: 35px;
-}
-
-.espacio--2{
-    height: 80px;
-}
-
 .primera__tarjeta {
-  padding-top: 15vh;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  height: 75vh;
 }
 
-.subtitulo__seccion--animacion {
-    animation-name: animacion_subtitulos;
-    animation-timing-function: ease-in;
-    animation-iteration-count: 1;
-    animation-duration: 4s;
-    animation-delay: 0.5s;
+.subtitulo__seccion {
     color: $rosafuerte;
     font-weight: bold;
-}
-
-@keyframes animacion_subtitulos {
-    0% {
-
-    }
-    25%{
-        opacity: 75%;
-    }
-    50% {
-        opacity: 50%;
-    }
-    75%{
-        opacity: 25%;
-    }
-    100%{
-        opacity: 0%;
-    }
+    margin-bottom: 3vh;
+    font-size: 40px;
 }
 
 .parrafo__seccion {
     color: gray;
+    margin-bottom: 3vh;
+    font-size: 25px;
+
 }
 
 .boton__vermas{
@@ -132,6 +120,8 @@ align-items: center;
 .subtitulo__seccion--3 {
     color: $amarillo;
     font-weight: bold;  
+    display: flex;
+    justify-content: center;
 }
 
 .img__logoclientes {
@@ -146,6 +136,7 @@ align-items: center;
     height: 50px;
     width: 120px;
     margin: auto;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
     justify-items: center;

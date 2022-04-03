@@ -1,23 +1,59 @@
 @import "variables";
 
-
-// maps
-$redes: (
-        twitter: #55acee,
-        facebook:  #3a5795,
-        instagram: #e63c49,
-        youtube: red
-);
-
-.icon-social {
-    font-size: 1.5rem;
+.primeralinea__titulo {
+    color: $azulfuerte;
+    font-weight: bold;
+    font-size: 8vh;
 }
 
-@each $red, $color in $redes {
-   &:hover.btn--#{$red} {
-        background-color: $color;
-        @extend .icon-social;
-   }
+.parrafo__principal {
+    color: gray;
+    font-size: 18px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
+
+.boton__contactanosprincipal{
+    background-color: $azulfuerte;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin-bottom: 0;
+
+    }
+
+.imagen__seccion--2 {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    padding-top: 5vh;
+}
+
+/* logos de marcas
+<div class="social">
+            <ul>
+                <li>
+                    <a href="#" class="btn--facebook">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn--twitter">
+                        <i class="fa-brands fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn--instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn--youtube">
+                        <i class="fa-brands fa-youtube-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+*/
 
 
