@@ -48,16 +48,18 @@ footer{
             margin-top: 5px;
             margin-left: 5px;
             margin-right: 5px;
+            color: white;
+        }
+
+        .redes {
+            margin-left: 4vh;
         }
         
-        .footer_sociallink {
+        .link__social {
             text-decoration: none;
-            display: inline-flex;
-            margin-top: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
-        }
-        
+            color: white;
+                }
+                
         .footer__empresa {
             display: flex;
             height: 50px;
@@ -69,4 +71,5 @@ footer{
             padding-top: 25px;
             
         }
+        
 }

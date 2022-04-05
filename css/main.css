@@ -88,13 +88,13 @@ footer {
     position: top;
     margin-top: 5px;
     margin-left: 5px;
-    margin-right: 5px; }
-  .footer .footer_sociallink {
+    margin-right: 5px;
+    color: white; }
+  .footer .redes {
+    margin-left: 4vh; }
+  .footer .link__social {
     text-decoration: none;
-    display: inline-flex;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px; }
+    color: white; }
   .footer .footer__empresa {
     display: flex;
     height: 50px;
@@ -124,37 +124,26 @@ footer {
   margin-bottom: 0; }
 
 .imagen__seccion--2 {
-  width: 450px;
-  height: 450px;
+  width: 480px;
+  height: 480px;
   display: flex;
   padding-top: 5vh; }
 
-/* logos de marcas
-<div class="social">
-            <ul>
-                <li>
-                    <a href="#" class="btn--facebook">
-                        <i class="fa-brands fa-facebook-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="btn--twitter">
-                        <i class="fa-brands fa-twitter-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="btn--instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="btn--youtube">
-                        <i class="fa-brands fa-youtube-square"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-*/
+.imagen__seccion--3 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin-left: 10vh;
+  margin-top: 3vh; }
+  .imagen__seccion--3:hover {
+    transform: scale(1.2); }
+
+.imagen__seccion--4 {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  margin-bottom: 20vh; }
+
 * {
   margin: 0;
   padding: 0;
@@ -175,7 +164,8 @@ body {
   width: 400px;
   height: 400px;
   display: flex;
-  margin-bottom: 15vh; }
+  margin-bottom: 15vh;
+  margin-left: 10vh; }
   .imagen__seccion:hover {
     transform: scale(1.2); }
 
@@ -230,7 +220,18 @@ body {
 
 .subtitulo__seccion--2 {
   color: #0071ce;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 40px; }
+
+.boton__vermas--azul {
+  background-color: #0071ce;
+  border-radius: 20px;
+  height: 50px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center; }
 
 .imagenes__soluciones {
   display: flex;
@@ -269,6 +270,9 @@ body {
   justify-content: center;
   justify-items: center;
   align-items: center; }
+
+.soluciones__digitales {
+  height: 75vh; }
 
 /*página soluciones digitales*/
 .portada__img {

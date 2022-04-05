@@ -30,6 +30,7 @@ body{
     height: 400px;
     display: flex;
     margin-bottom: 15vh;
+    margin-left: 10vh;
 
     &:hover {
         transform: scale(1.2);
@@ -98,6 +99,18 @@ align-items: center;
 .subtitulo__seccion--2 {
     color: $azul;
     font-weight: bold;
+    font-size: 40px;
+}
+
+.boton__vermas--azul {
+    background-color: $azul;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;  
 }
 
 .imagenes__soluciones{
@@ -141,6 +154,10 @@ align-items: center;
     justify-content: center;
     justify-items: center;
     align-items: center;
+}
+
+.soluciones__digitales{
+    height: 75vh;
 }
 
 
