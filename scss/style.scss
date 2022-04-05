@@ -42,6 +42,14 @@ body{
     color: $rosafuerte;
 }
 
+.bold_azulfuerte {
+    color: $azulfuerte;
+}
+
+.bold_amarillo {
+    color: $amarillo;
+}
+
 .boton__contactanos{
 background-color: $amarillo;
 border-radius: 20px;
@@ -113,6 +121,17 @@ align-items: center;
     align-items: center;  
 }
 
+.boton__vermas--amarillo {
+    background-color: $amarillo;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;  
+}
+
 .imagenes__soluciones{
     display: flex;
     justify-content: space-between;
@@ -160,6 +179,19 @@ align-items: center;
     height: 75vh;
 }
 
+.subtitulo__seccion--4 {
+    color: $azulfuerte;
+    font-weight: bold;
+    margin-bottom: 3vh;
+    font-size: 40px;
+}
+
+.subtitulo__seccion--5 {
+    color: $amarillo;
+    font-weight: bold;
+    margin-bottom: 3vh;
+    font-size: 40px;
+}
 
 /*página soluciones digitales*/
 .portada__img {

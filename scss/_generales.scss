@@ -6,6 +6,12 @@
     font-size: 8vh;
 }
 
+.primeralinea__titulo--2 {
+    color: $azul;
+    font-weight: bold;
+    font-size: 8vh;
+}
+
 .parrafo__principal {
     color: gray;
     font-size: 18px;
@@ -45,6 +51,18 @@
     height: 380px;
     display: flex;
     margin-bottom: 20vh;
+}
+
+.imagen__seccion--5 {
+    width: 380px;
+    height: 380px;
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 
 

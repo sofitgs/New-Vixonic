@@ -110,6 +110,11 @@ footer {
   font-weight: bold;
   font-size: 8vh; }
 
+.primeralinea__titulo--2 {
+  color: #0071ce;
+  font-weight: bold;
+  font-size: 8vh; }
+
 .parrafo__principal {
   color: gray;
   font-size: 18px;
@@ -144,6 +149,15 @@ footer {
   display: flex;
   margin-bottom: 20vh; }
 
+.imagen__seccion--5 {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 20vh; }
+  .imagen__seccion--5:hover {
+    transform: scale(1.2); }
+
 * {
   margin: 0;
   padding: 0;
@@ -171,6 +185,12 @@ body {
 
 .bold_rosa {
   color: #e63c49; }
+
+.bold_azulfuerte {
+  color: #2E33AB; }
+
+.bold_amarillo {
+  color: #f7b644; }
 
 .boton__contactanos {
   background-color: #f7b644;
@@ -233,6 +253,16 @@ body {
   justify-items: center;
   align-items: center; }
 
+.boton__vermas--amarillo {
+  background-color: #f7b644;
+  border-radius: 20px;
+  height: 50px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center; }
+
 .imagenes__soluciones {
   display: flex;
   justify-content: space-between; }
@@ -273,6 +303,18 @@ body {
 
 .soluciones__digitales {
   height: 75vh; }
+
+.subtitulo__seccion--4 {
+  color: #2E33AB;
+  font-weight: bold;
+  margin-bottom: 3vh;
+  font-size: 40px; }
+
+.subtitulo__seccion--5 {
+  color: #f7b644;
+  font-weight: bold;
+  margin-bottom: 3vh;
+  font-size: 40px; }
 
 /*página soluciones digitales*/
 .portada__img {
