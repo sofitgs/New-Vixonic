@@ -65,4 +65,15 @@
     }
 }
 
+.imagen__seccion--6 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin-left: 10vh;
+    margin-top: 2vh;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
 
