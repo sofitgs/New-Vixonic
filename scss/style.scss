@@ -25,19 +25,6 @@ body{
     margin-top: 10vh;
 }
 
-.imagen__seccion {
-    width: 400px;
-    height: 400px;
-    display: flex;
-    margin-bottom: 15vh;
-    margin-left: 10vh;
-
-    &:hover {
-        transform: scale(1.2);
-    }
-    }
-
-
 .bold_rosa {
     color: $rosafuerte;
 }
@@ -191,14 +178,6 @@ align-items: center;
     font-weight: bold;
     margin-bottom: 3vh;
     font-size: 40px;
-}
-
-/*página soluciones digitales*/
-.portada__img {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
 
 

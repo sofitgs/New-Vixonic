@@ -28,6 +28,18 @@
 
     }
 
+.imagen__seccion {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin-bottom: 15vh;
+    margin-left: 10vh;
+    
+    &:hover {
+            transform: scale(1.2);
+        }
+}    
+
 .imagen__seccion--2 {
     width: 480px;
     height: 480px;
